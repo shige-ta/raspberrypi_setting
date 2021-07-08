@@ -1,6 +1,6 @@
-# 簡易ssh接続設定
+## 簡易ssh接続設定
 
-# ラズパイOSインストーラー
+## ラズパイOSインストーラー
 ```bash
 https://www.raspberrypi.org/software/
 microsdにインストール
@@ -12,7 +12,7 @@ cd raspberrypi_setting
 vi wpa_supplicant.conf
 ```
 
-# ssid nameとpasswordを変更
+## ssid nameとpasswordを変更
 ```bash
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -27,14 +27,14 @@ network={
 }
 ```
 
-# microsdの直下にsshとwpa_supplicant.confをコピー
+## microsdの直下にsshとwpa_supplicant.confをコピー
 
-# ログイン
+## ログイン
 ```bash
 ssh pi@ipadress
 ```
 
-# VNCインストール手順
+## VNCインストール手順
 ```bash
 sudo apt update
 sudo apt install tightvncserver
