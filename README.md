@@ -37,6 +37,10 @@ or
 ```bash
 ssh pi@raspberrypi
 ```
+or
+```bash
+ssh pi@raspberrypi.local
+```
 
 ## VNCインストール手順
 ```bash
