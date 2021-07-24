@@ -33,6 +33,10 @@ network={
 ```bash
 ssh pi@ipadress
 ```
+or
+```bash
+ssh pi@raspberrypi
+```
 
 ## VNCインストール手順
 ```bash
